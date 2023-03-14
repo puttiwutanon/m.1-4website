@@ -1,0 +1,126 @@
+.body{
+    margin: 0;
+    background-image: url('Screenshot_20230217-234146_Instagram.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-size: cover;
+    transition: 5s;
+
+    animation-name: animate;
+    animation-duration: 50s;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes animate{
+    0%{
+        background-image: url(Screenshot_20230217-234146_Instagram.jpg);
+    }20%{
+        background-image: url(LINE_ALBUM_ทัศนศึกษาสวนใหญ่_230219.jpg);
+    }40%{
+        background-image: url(LINE_ALBUM_ไหว้ครูไปเลย_230219.jpg);
+    }60%{
+        background-image: url(S__17825798.jpg);
+    }80%{
+        background-image: url(1676791606768.jpg);
+    }
+}
+
+.nav{
+    overflow: auto;
+    background: #0000005b;
+    margin-top: 0px;
+    
+}
+.nav a{
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 110px;
+    text-decoration: none;
+    font-family: Arial;
+}
+.เพราะห้องเรามันเริดสะแม็นแตน{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 40px;
+    position: absolute;
+    bottom: 0px;
+    color: rgba(255, 253, 253, 0.849);
+    margin-bottom: 200px;
+    
+}
+p{
+    margin-left: 300px;
+}
+.button{
+    font-family: arial;
+    font-size: 20px;
+    font-weight: bold;
+}
+.button:hover{
+    color:rgba(0, 0, 0, 0.664);
+}
+.aboutus{
+    font-family:Arial;
+    font-size: 30px;
+    font-weight: bold;
+    color:black;
+    text-align: center;
+    text-decoration: underline;
+
+}
+.text{
+    font-family: Arial;
+    font-size: 20px;
+
+}
+.sknimage1{
+    width: 500px;
+    margin-right: 5px;
+    float: left;
+    
+}
+.sknimage2{
+    width: 500px;
+    margin-right: 5px;
+    float: right;
+    margin-top: 90px;
+    
+}
+.paragraph1{
+    font-family: Arial;
+    font-size: 20px;  
+    margin-top: 10px;
+}
+.paragraph2{
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
+    color: black;
+    margin-top: 500px;
+    
+}
+.paragraph3{
+    font-family: Arial;
+    font-size: 20px;  
+    margin-top: 400px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-left: -50px;
+
+}
